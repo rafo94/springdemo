@@ -1,0 +1,60 @@
+<!--@author Rafik Gasparyan 02/03/2019-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+<form action="/user/add" method="post" enctype="multipart/form-data">
+    <div class="form-row col-md-3">
+        <div class="form-group">
+            <label for="inputUserName">Name</label>
+            <input type="text" class="form-control" id="inputUserName" name="name" placeholder="Enter Name">
+        </div>
+    </div>
+    <div class="form-row col-md-3">
+        <div class="form-group">
+            <label for="inputSurname">Surname</label>
+            <input type="text" class="form-control" id="inputSurname" name="surname" placeholder="Enter Surname">
+        </div>
+    </div>
+    <div class="form-row col-md-3">
+        <div class="form-group">
+            <label for="exampleInputEmail1">Email</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" name="email" aria-describedby="emailHelp"
+                   placeholder="Enter email">
+        </div>
+    </div>
+    <div class="form-row col-md-3">
+        <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        </div>
+    </div>
+    <div class="form-row col-md-3">
+        <div class="form-group">
+            <label for="formControlFile">File input</label>
+            <input type="file" class="form-control-file" id="formControlFile" name="picture">
+        </div>
+    </div>
+    <div class="form-row col-md-5 mb-3">
+        <button type="submit" value="add" class="btn btn-success btn-lg col-md-4">Add</button>
+    </div>
+    <div class="form-row col-md-5">
+        <a href="/home" class="btn btn-primary stretched-link btn-lg col-md-4">Back</a>
+    </div>
+</form>
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</html>
